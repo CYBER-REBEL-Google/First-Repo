@@ -5,4 +5,4 @@ function add(a){
 }
 function mul(a){
     return a*a;
-}
+}   
