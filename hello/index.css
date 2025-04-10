@@ -1,0 +1,26 @@
+html,body{
+    width: 100%;
+    padding: 20px;
+    /* height: 100%; */
+    background-color: black;
+    box-sizing: border-box;
+    color: wheat;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(35, 35, 35);
+}
+img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+h1,h2{
+color:red;
+text-align: center;
+}
