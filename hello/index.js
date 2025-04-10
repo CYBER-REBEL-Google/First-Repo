@@ -10,7 +10,7 @@ const arr = [
       age: 34
     },
     {
-      "image": "https://i.pravatar.cc/150?img=3",
+      image: "https://i.pravatar.cc/150?img=3",
       username: "alex_jones",
       "age": 22
     },
@@ -65,16 +65,16 @@ let sum =``;
 arr.forEach(function(elem,i){
     console.log(elem.age)
             sum = sum +` <div class="card">
-        <img src="https://images.unsplash.com/photo-1743082217603-e6c91b3ecd90?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-        <h1>24</h1>
-    <h2>hello</h2>
+        <img src=${elem.image} alt="">
+        <h1>${elem.age}</h1>
+    <h2>${elem.username}</h2>
 </div>`
 })
 
 // elem[i].age not working instend elem.age dirclty
 
 
-// body.innerHTML=sum;
+body.innerHTML=sum;
 
 
 
